@@ -27,3 +27,14 @@ ol {
 ul {
     list-style-type: unset;
 }
+
+img {
+    width: 40%;
+    border-style: double;
+    border-radius: 10px 40px 90px;
+}
+
+.imagem-modificada {
+   filter: blur(1px); 
+   filter: brightness(3%);
+}
