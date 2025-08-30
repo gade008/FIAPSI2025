@@ -13,3 +13,17 @@ h2  {
     color: blue;
     text-align: center;
 }
+p {
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+ol {
+    list-style: upper-roman;
+    list-style-position: outside;
+}
+
+ul {
+    list-style-type: unset;
+}
