@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+*::selection {
+    color: aqua;
 }
 
 /* body {
@@ -11,7 +16,7 @@
 
 div {
     width: 90%;
-    height: 500px;
+    max-height: 500px;
     margin: 10px auto;
     padding: 30px 0;
     box-sizing: border-box;
@@ -21,6 +26,7 @@ div {
     background-position: center;
     background-attachment: fixed;
     border-radius: 7px;
+    text-align: center;
 }
 
 div p {
@@ -85,4 +91,35 @@ div a:hover {
 .bg-green {
     background-color: green;
     background-image: none;
+}
+
+p::selection {
+    
+}
+
+.box::after {
+    box-sizing: border-box;
+    content: "Minha aplicação";
+    background-color: #ccc;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 80%;
+    color: red;
+    margin: auto;
+}
+
+thead th {
+    height: 40px;
+    background-color: aquamarine;
+    color: #000000;
+    text-transform: uppercase;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(61, 59, 59, 0.205);
 }
